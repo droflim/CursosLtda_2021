@@ -1,0 +1,31 @@
+.featured-image {
+    width: 100%;
+    max-width: 730px;
+    height: 670px;
+    background-image: url(../../assets/img/foto.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    float: right;
+    margin: 0;
+    padding:0;
+  }
+  .hero-section__hero-content {
+    padding: 30px 0px 0px 90px; 
+   margin: 0;
+   
+   }
+
+   .hero-section__main-content ,h1 {
+    font-family: $oldstandard;
+    font-size: $xxx-large;
+    padding-top: -20px;
+    
+   }
+  
+   .hero-section__main-content ,p {
+    font-family: $oldstandard;
+    font-size: $medium;
+    
+   }
+  
