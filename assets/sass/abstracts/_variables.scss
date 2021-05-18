@@ -1,11 +1,29 @@
+//Breakpoints Bootstrap Min Width
+
+$min-sm: 576px;
+$min-md: 768px;
+$min-lg: 992px;
+$min-xl: 1200px;
+$min-xxl: 1400px;
+
+//Breakpoints Bootstrap Max Width (documentation bootstrap official)
+
+$max-sm: 575.98px;
+$max-md: 767.98px;
+$max-lg: 991.98px;
+$max-xl: 1199.98px;
+$max-xxl: 1399.98px;
+
 
 //Colors
-$smokyblack: #0C0910;
-$granitygray: #646266;
-$quicksilver: #A6A5A8;
-$isabelline: #ECECEC;
-$lightgray: #D1D1D1;
-$white: #fff;
+
+$tangerine: #FFAF6D;
+$orange: #FFA500;
+$charcoal: #2E1503;
+$sable: #060606;
+$black: #000000;
+$white: #FFFFFF;
+$gray: #4b4b4b;
 
 
 //Special Colors
@@ -13,17 +31,21 @@ $white: #fff;
 $degradation: rgba(0, 0, 0, 0.6);
 
 //Font Family
-$raleway: 'Raleway', sans-serif;
-$oldstandard: 'Old Standard TT', serif;
+$ubuntu: 'Ubuntu', sans-serif;
+$poppins: 'Poppins', sans-serif;
 
 //Font Sizes
-$xxx-large: 50px;
-$xx-large: 30px;
-$x-large: 25px;
-$large: 18px;
+$xxxxx-large: 50px;
+$xxxx-large: 45px;
+$xxx-large: 40px;
+$xx-large: 35px;
+$x-large: 30px;
+$large: 20px;
 $medium: 16px;
-$small: 14px;
+$small: 14px; 
 $x-small: 12px;
+
+
 
 //Font style
 $stylefont: italic;

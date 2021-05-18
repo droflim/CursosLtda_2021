@@ -1,97 +1,16 @@
-.navigation {
-    position: relative;
-    }
-  
-    .navigation__logo {
-      position: absolute;
-      top: .9em;
-      left: 2.5em;
-      }
-  
-      .collapsible {
-        text-align: right;
-        label {
-        display: block;
-        padding-top: .5em;
-        padding-bottom: .5em;
-        padding-right: 1.5em;
-        font-size: 1.8rem;
-        }
-        }
-  
-        ul {
-          list-style-type: none;
-      }
-  
-        #menu {
-          display: none;
-          }
-          input:checked ~ .navigation__container {
-            max-height: 100%;
-            }
-  
-            .navigation__container {
-              max-height: 0;
-              padding: 0;
-              overflow: hidden;
-              }
-  
-              .navigation__item {
-                a {
-                display: block;
-                text-align: left;
-                padding: .5em;
-                font-family:inherit;
-                font-size: 1.2rem;
-                font-weight: bolder;
-                color: black;
-                text-decoration: none;
-                &:hover {
-                color:black;
-                }
-                }
-                }
-  
-                @media only screen and (min-width: 992px) {
-  
-                  .navigation__logo {
-                    top: 1em;
-                    left: 3em;
-                    }
-                    .collapsible {
-                      label {
-                      display: none;
-                      }
-                      }
-  
-                      .navigation__container {
-                        max-height: 100%;
-                        padding: .5em 3em .5em 0;
-                        overflow: visible;
-                        }
-  
-                        .navigation__list {
-                          display: flex;
-                          justify-content: flex-end;
-                          margin: inherit;
-                          padding: inherit;
-                          }
-  
-                          .navigation__item {
-                            a {
-                            padding: .5em 1em;
-                            font-size: 1rem;
-                            font-weight: 400;
-                            }
-                            }
-  
-  
-                }
-  
+
   .logo {
-    max-height: 90px;
-      position: relative;
-      right: 50px;
-      top: -29px;
-  
+    max-height: 30px;
   }
+
+  .navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.9)' stroke-width='4' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  
+  .navbar-dark .navbar-toggler {
+    background-color: transparent!important;
+    color: transparent!important;
+    border-color:transparent!important;
+    position: relative;
+    left: 30px;
+}

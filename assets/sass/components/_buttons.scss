@@ -1,14 +1,17 @@
-.button__class {
-  &--button {
-  border: 1px solid #000;
-  color: #000;
-  background-color: transparent;
+
+.button__footer {
+  &--2 {
+    font-size: 12px;
+    border-radius: 5px;
+    background-color:$tangerine;
 }
 }
-.button {
-  padding: 0.7rem 1.5rem;
-  font-family: "Open Sans", sans-serif;
-  font-size: 16px;
-  font-weight: 700;
+
+.button__footer {
+  &--1 {
+    max-width: 100%;
+    font-size: 12px;
+    border-radius: 5px;
+}
 }
   
